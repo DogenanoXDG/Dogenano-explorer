@@ -49,7 +49,7 @@ const AppHeader: React.FC = () => {
             }}
           >
             <Link to="/" style={{ whiteSpace: "nowrap", marginRight: "10px" }}>
-              BananoLooker
+              Dogenano Explorer
             </Link>
           </Col>
           <Col xs={{ span: 24, order: 3 }} md={{ span: 12, order: 2 }}>
@@ -97,11 +97,11 @@ const AppHeader: React.FC = () => {
                 </Menu.Item>
               </SubMenu>
 
-              <Menu.Item key="news">
+              {/* <Menu.Item key="news">
                 <CalendarOutlined />
                 {t("menu.news")}
                 <Link to="/news" />
-              </Menu.Item>
+              </Menu.Item> */}
 
               <SubMenu
                 key="status-submenu"

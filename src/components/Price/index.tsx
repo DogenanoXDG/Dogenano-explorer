@@ -21,7 +21,7 @@ const Price = () => {
   };
 
   const defaultCryptocurrency = SupportedCryptocurrency.find(
-    ({ symbol }) => symbol === "ban",
+    ({ symbol }) => symbol === "xdg",
   ) as CryptocurrencyPriceProps;
 
   return (
@@ -104,7 +104,7 @@ const CryptocurrencyPrice = ({
             {(symbol === "nano" || symbol === "xno") && price24hChange >= 25
               ? "🥦"
               : null}
-            {symbol === "ban" && price24hChange >= 25 ? "🍌" : null}
+            {symbol === "xdg" && price24hChange >= 25 ? "🍌" : null}
           </>
         }
       />

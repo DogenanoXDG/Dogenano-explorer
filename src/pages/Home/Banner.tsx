@@ -21,7 +21,7 @@ const Banner: React.FC = () => {
         alignItems: "center",
         flexDirection: "column",
         margin: "-12px -12px 12px -12px",
-        backgroundColor: theme === Theme.DARK ? "#121212" : "#4bbe4a",
+        backgroundColor: theme === Theme.DARK ? "#121212" : "#209ce9",
         padding: "40px 0",
       }}
     >
@@ -36,9 +36,9 @@ const Banner: React.FC = () => {
         }}
       >
         <img
-          alt="Banano block explorer"
+          alt="Dogenano block explorer"
           height="30px"
-          src={`/banano.svg`}
+          src={`/dogenano.png`}
           style={{ marginRight: "12px" }}
         />
         <Title
@@ -59,7 +59,7 @@ const Banner: React.FC = () => {
       <div style={{ marginBottom: "18px" }}>
         <Search isHome />
       </div>
-
+{/* 
       <Space size={[6, 12]} wrap style={{ justifyContent: "center" }}>
         <Link to={"/what-is-banano"}>
           <Button ghost>{t("menu.whatIsBanano")}</Button>
@@ -74,7 +74,7 @@ const Banner: React.FC = () => {
         >
           <img alt="Go to NanoLooker" src={`/nano-white.png`} height="10px" />
         </Button>
-      </Space>
+      </Space> */}
     </div>
   );
 };

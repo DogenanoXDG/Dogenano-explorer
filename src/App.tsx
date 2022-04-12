@@ -83,10 +83,10 @@ const App: React.FC = () => {
               component={AccountPage}
             />
             <Route path="/block/:block?" component={BlockPage} />
-            <Route path="/news/:feed?" component={NewsPage} />
+            {/* <Route path="/news/:feed?" component={NewsPage} /> */}
             <Route path="/node-status" component={NodeStatusPage} />
             <Route path="/network-status" component={NetworkStatusPage} />
-            <Route path="/what-is-banano" component={WhatIsBananoPage} />
+            {/* <Route path="/what-is-banano" component={WhatIsBananoPage} /> */}
             <Route path="/preferences" component={PreferencesPage} />
             <Route path="/bookmarks" component={BookmarksPage} />
           </Switch>

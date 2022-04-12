@@ -86,7 +86,7 @@ const getMarketStats = async fiats => {
     for (let i = 0; i < fiats.length; i++) {
       const fiat = fiats[i];
       res = await fetch(
-        "https://api.coingecko.com/api/v3/coins/banano?localization=false&tickers=false&market_data=true&community_data=true&developer_data=true&sparkline=true",
+        "https://api.coingecko.com/api/v3/coins/dogecoin?localization=false&tickers=false&market_data=true&community_data=true&developer_data=true&sparkline=true",
       );
 
       const {

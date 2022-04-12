@@ -22,12 +22,12 @@ const AppFooter: React.FC = () => {
   return (
     <Footer style={{ textAlign: "center" }}>
       <div>
-        <a
-          href="https://github.com/running-coder/nanolooker/tree/bananolooker"
+        Forked from the awesome  <a
+          href="https://github.com/running-coder/nanolooker"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <GithubOutlined /> BananoLooker
+          <GithubOutlined /> NanoLooker
         </a>{" "}
         ©{new Date().getFullYear()}{" "}
         {t("footer.createdBy", { creator: "RunningCoder" })}

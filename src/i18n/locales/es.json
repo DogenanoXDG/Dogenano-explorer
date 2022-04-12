@@ -44,8 +44,8 @@
     "link": "Enlace"
   },
   "nodeHealth": {
-    "nodeReloading": "Banano nodo se está recargando",
-    "nodeReady": "Banano nodo está listo"
+    "nodeReloading": "Dogenano nodo se está recargando",
+    "nodeReady": "Dogenano nodo está listo"
   },
   "transaction": {
     "type": "Tipo",
@@ -62,34 +62,34 @@
   },
   "tooltips": {
     "avgConfirmationTime": "El tiempo medio de confirmación se calcula localmente en el nodo. Si el nodo se reinicia o se degrada, el tiempo medio de confirmación puede ser mayor que el del resto de la red.",
-    "circulatingSupply": "La cantidad de monedas que hay en circulación. Banano está completamente distribuido, la oferta nunca aumentará.",
+    "circulatingSupply": "La cantidad de monedas que hay en circulación. Dogenano está completamente distribuido, la oferta nunca aumentará.",
     "transactionFees": "A diferencia de otras criptomonedas, las nano transacciones son gratuitas para siempre.",
-    "cps": "Confirmaciones por segundo. La tasa de bloques confirmados (enviar o recibir) en la red BANANO. Se muestrea en el último minuto localmente en el nodo. Si el nodo se reinicia o se degrada, el valor de CPS puede ser mayor o menor que el promedio real en la red mientras el nodo se sincroniza y se vuelve a conectar con los otros nodos.",
-    "votingWeight": "Se requiere una cuenta con un mínimo de {{minWeight}} BANANO o >= 0.1% del peso de la votación en línea delegado para obtener el estado de Representante Principal. Cuando se configura en un nodo que está votando, los votos que produce serán retransmitidos por otros nodos a quienes los reciben, lo que ayuda a la red a llegar a un consenso más rápidamente.",
+    "cps": "Confirmaciones por segundo. La tasa de bloques confirmados (enviar o recibir) en la red Dogenano. Se muestrea en el último minuto localmente en el nodo. Si el nodo se reinicia o se degrada, el valor de CPS puede ser mayor o menor que el promedio real en la red mientras el nodo se sincroniza y se vuelve a conectar con los otros nodos.",
+    "votingWeight": "Se requiere una cuenta con un mínimo de {{minWeight}} Dogenano o >= 0.1% del peso de la votación en línea delegado para obtener el estado de Representante Principal. Cuando se configura en un nodo que está votando, los votos que produce serán retransmitidos por otros nodos a quienes los reciben, lo que ayuda a la red a llegar a un consenso más rápidamente.",
     "pending": "Un estado de transacción en el que la red publicó y confirmó un bloque de envío de fondos, pero aún no se ha enviado o confirmado un bloque coincidente que recibe esos fondos.",
-    "nakamotoCoefficient": "El coeficiente de Nakamoto es una forma de cuantificar la descentralización de una cadena de bloques u otro sistema descentralizado. Es la cantidad de entidades que necesita para comprometer al menos un subsistema esencial. Para Banano, más del {{onlineWeightQuorumPercent}}% del peso de la votación en línea de los representantes principales tendría que verse comprometido.",
-    "representatives": "Para optimizar el rendimiento, solo se consideran las cuentas con peso de voto >= 1000 BANANO, pero normalmente cualquier cuenta con peso de voto > 0, pero < 0,1% del peso de voto en línea.",
-    "principalRepresentatives": "Se requiere una cuenta con un mínimo de {{principalRepresentativeMinWeight}} BANANO o >= 0.1% del peso de voto en línea delegado para obtener el estado de Representante Principal. Cuando se configura en un nodo que está votando, los votos que produce serán retransmitidos por otros nodos a quienes los reciben, lo que ayuda a la red a llegar a un consenso más rápidamente.",
+    "nakamotoCoefficient": "El coeficiente de Nakamoto es una forma de cuantificar la descentralización de una cadena de bloques u otro sistema descentralizado. Es la cantidad de entidades que necesita para comprometer al menos un subsistema esencial. Para Dogenano, más del {{onlineWeightQuorumPercent}}% del peso de la votación en línea de los representantes principales tendría que verse comprometido.",
+    "representatives": "Para optimizar el rendimiento, solo se consideran las cuentas con peso de voto >= 1000 Dogenano, pero normalmente cualquier cuenta con peso de voto > 0, pero < 0,1% del peso de voto en línea.",
+    "principalRepresentatives": "Se requiere una cuenta con un mínimo de {{principalRepresentativeMinWeight}} Dogenano o >= 0.1% del peso de voto en línea delegado para obtener el estado de Representante Principal. Cuando se configura en un nodo que está votando, los votos que produce serán retransmitidos por otros nodos a quienes los reciben, lo que ayuda a la red a llegar a un consenso más rápidamente.",
     "onlinePrincipalRepresentatives": "Cuentas representativas en línea que han votado recientemente.",
     "lastTransaction": "Última transacción de envío desde cualquiera de las cuentas {{totalAccounts}}.",
-    "largeTransactions": "Solo las transacciones de envío de 100,000 BANANO o más se guardan temporalmente durante una semana.",
-    "knownExchangeBalance": "Excluya {{knownExchangeList}} del gráfico de distribución. Esas cuentas combinadas tienen {{knownExchangeBalance}} BANANO",
-    "unchecked": "Bloques (transacciones) que se han descargado pero que el nodo Banano aún no ha procesado. El software de nodo descarga todos los bloques de otros nodos como desmarcados, los procesa y agrega al conteo de bloques, confirma los bloques de frontera para cada cuenta y luego los marca como cementados.",
+    "largeTransactions": "Solo las transacciones de envío de 100,000 Dogenano o más se guardan temporalmente durante una semana.",
+    "knownExchangeBalance": "Excluya {{knownExchangeList}} del gráfico de distribución. Esas cuentas combinadas tienen {{knownExchangeBalance}} Dogenano",
+    "unchecked": "Bloques (transacciones) que se han descargado pero que el nodo Dogenano aún no ha procesado. El software de nodo descarga todos los bloques de otros nodos como desmarcados, los procesa y agrega al conteo de bloques, confirma los bloques de frontera para cada cuenta y luego los marca como cementados.",
     "cemented": "Cuando un nodo específico marca una transacción confirmada como localmente irreversible estableciendo la altura de confirmación de la cuenta (en la base de datos del nodo) a la altura de bloque ahora más alta de la transacción confirmada. La cementación es una operación a nivel de nodo.",
-    "unknownLastTransaction": "Las fechas de transacción se introdujeron en febrero de 2019. Antes de esa fecha, los tiempos de transacción no se registraban localmente en los nodos. La razón por la que se desconoce la fecha de la última transacción es porque se confirmó antes de que se registraran las fechas o antes de que el nodo BananoLooker estuviera en servicio.",
+    "unknownLastTransaction": "Las fechas de transacción se introdujeron en febrero de 2019. Antes de esa fecha, los tiempos de transacción no se registraban localmente en los nodos. La razón por la que se desconoce la fecha de la última transacción es porque se confirmó antes de que se registraran las fechas o antes de que el nodo DogenanoLooker estuviera en servicio.",
     "confirmationHeight": "Un número almacenado en la base de datos del nodo local que representa el bloque confirmado más alto (más reciente) en una cadena de cuentas. Relacionado con (pero diferente) la altura del bloque.",
     "blockHeight": "Un valor entero local que representa el orden de un bloque en una cadena de cuentas. Por ejemplo, el bloque 15 de una cuenta tendría una altura de bloque de 15. Relacionado con (pero diferente) la altura de confirmación.",
     "bookmarks": "Los marcadores {{type, capitalize}} se guardan en su dispositivo. Puede administrar sus {{type}} conocidos dándoles alias.",
     "groupByEntities": "Reagrupar todo el peso de los votos que se divide en diferentes representantes principales en entidades individuales. Por ejemplo, un intercambio puede tener múltiples billeteras y dividir su peso, pero en realidad se puede contar como un solo peso si lo reagruparan.",
     "telemetry": "Métricas de otros nodos de la red. Todas las métricas se recopilan y promedian para representar diferentes estados de la red. P corresponde al percentil, p50 se calcula excluyendo el 50% inferior mientras que p95 excluye el 5% inferior de los diferentes valores para calcular el promedio.",
-    "ledgerSize": "La cantidad total de espacio en disco necesaria para almacenar todas las transacciones Banano hasta ahora. El tamaño del libro mayor se calcula en base 1024, no 1000.",
+    "ledgerSize": "La cantidad total de espacio en disco necesaria para almacenar todas las transacciones Dogenano hasta ahora. El tamaño del libro mayor se calcula en base 1024, no 1000.",
     "bandwidthCap": "Los nano nodos pueden acelerar su ancho de banda para limitar la cantidad de mensajes que se pueden enviar o recibir. 0 significa ancho de banda ilimitado.",
     "uptime": "Tiempo transcurrido desde la última vez que se reinició el nodo.",
     "pendingTransactionCount": "El número de transacciones pendientes supera el límite mostrado de {{count}}.",
-    "mnano": "Mnano es la división estándar actual utilizada en billeteras, intercambios y servicios. Se denomina 1 BANANO.",
-    "versionsByWeight": "Para que una versión se apodere del consenso de la red, debe tener el {{onlineWeightQuorumPercent}}% del peso de la votación en línea de un mínimo de {{onlineWeightMinimum}} BANANO.",
-    "onChainVolume": "La suma de todas las transacciones BANANO que se han confirmado en la red. Si el usuario A envía 1 BANANO y el usuario B recibe 1 BANANO el mismo día, se agregarán 2 BANANO en el volumen diario porque se transmitieron y confirmaron 2 transacciones, un envío y una recepción.",
-    "oneBanEqualsOneDoge": "Divertida comparación con nuestra cadena de hermanos de monedas de meme doge, si la capitalización de mercado de Banano fuera igual a la de Doge."
+    "mnano": "Mnano es la división estándar actual utilizada en billeteras, intercambios y servicios. Se denomina 1 Dogenano.",
+    "versionsByWeight": "Para que una versión se apodere del consenso de la red, debe tener el {{onlineWeightQuorumPercent}}% del peso de la votación en línea de un mínimo de {{onlineWeightMinimum}} Dogenano.",
+    "onChainVolume": "La suma de todas las transacciones Dogenano que se han confirmado en la red. Si el usuario A envía 1 Dogenano y el usuario B recibe 1 Dogenano el mismo día, se agregarán 2 Dogenano en el volumen diario porque se transmitieron y confirmaron 2 transacciones, un envío y una recepción.",
+    "oneBanEqualsOneDoge": "Divertida comparación con nuestra cadena de hermanos de monedas de meme doge, si la capitalización de mercado de Dogenano fuera igual a la de Doge."
   },
   "search": {
     "searchBy": "Buscar por dirección / bloque / cuenta conocida",
@@ -101,20 +101,20 @@
     "darkMode": "Modo oscuro",
     "darkModeDetailed": "Cambie del modo Claro u Oscuro para mejorar la experiencia de navegación de su sitio según su entorno.",
     "language": "Idioma",
-    "languageDetailed": "Elija el idioma deseado. BananoLooker busca colaboradores para ayudar a mejorar la traducción del explorador. <0> Contribuir </0>",
+    "languageDetailed": "Elija el idioma deseado. DogenanoLooker busca colaboradores para ayudar a mejorar la traducción del explorador. <0> Contribuir </0>",
     "watch": "Mira otras criptomonedas",
     "watchSearch": "Buscar criptomonedas",
     "watchDetailed": "Observe el precio de otras criptomonedas en el top 100. Los precios actuales del mercado y el cambio de 24 horas aparecerán en la barra superior. También puede reordenar su selección usando arrastrar y soltar.",
     "fiatCurrency": "moneda fiduciaria",
-    "fiatCurrencyDetailed": "El dinero fiduciario es una moneda emitida por el gobierno. Seleccione una moneda fiduciaria para comparar el precio de Banano.",
+    "fiatCurrencyDetailed": "El dinero fiduciario es una moneda emitida por el gobierno. Seleccione una moneda fiduciaria para comparar el precio de Dogenano.",
     "natricons": "Natricones",
-    "natriconsDetailed": "Los natricones son una cara amigable y familiar para las direcciones Banano. Úselos en las páginas de la cuenta, en cualquier lugar donde haya una dirección Banano cercana.",
+    "natriconsDetailed": "Los natricones son una cara amigable y familiar para las direcciones Dogenano. Úselos en las páginas de la cuenta, en cualquier lugar donde haya una dirección Dogenano cercana.",
     "liveTransactions": "Habilitar actualizaciones en vivo",
-    "liveTransactionsDetailed": "Vea las transacciones en vivo que ocurren en la red Banano. Disponible en la página de inicio.",
+    "liveTransactionsDetailed": "Vea las transacciones en vivo que ocurren en la red Dogenano. Disponible en la página de inicio.",
     "contribute": "Contribuir",
     "filterTransactionsRange": "Incluya rangos de cantidad",
     "filterTransactionsRangeDetailed": "Establecer un rango de filtrado personalizado",
-    "filterTransactions": "Ocultar importes inferiores a 1 BANANO"
+    "filterTransactions": "Ocultar importes inferiores a 1 Dogenano"
   },
   "menu": {
     "explore": "Explorar",
@@ -127,8 +127,8 @@
     "faucets": "Grifos",
     "news": "Noticias",
     "nodeStatus": "Estado del nodo",
-    "whatIsBanano": "¿Qué es Banano?",
-    "earnBanano": "Gana Banano",
+    "whatIsDogenano": "¿Qué es Dogenano?",
+    "earnDogenano": "Gana Dogenano",
     "preferences": "Preferencias",
     "status": "Estado",
     "networkStatus": "Estado de la red"
@@ -137,7 +137,7 @@
     "createdBy": "Creado por {{creator}}",
     "donations": {
       "donate": "Donar",
-      "title": "Cuenta de donación de BananoLooker"
+      "title": "Cuenta de donación de DogenanoLooker"
     }
   },
   "pages": {
@@ -154,15 +154,15 @@
       "last24Hours": "Últimas 24 horas",
       "avgConfirmationTime": "Promedio tiempo de confirmación (segundos)",
       "confirmedTransactions": "Transacciones confirmadas",
-      "transactionFees": "Tarifas de transacción BANANO",
+      "transactionFees": "Tarifas de transacción Dogenano",
       "exchangeVolume": "Volumen de intercambio",
-      "onChainVolume": "Volumen BANANO en cadena",
+      "onChainVolume": "Volumen Dogenano en cadena",
       "oneBanEqualsOneDoge": "¿Qué es 1 Ban = 1 Doge?",
       "recentTransactions": "Transacciones Recientes",
       "liveUpdatesDisabled": "Actualizaciones en vivo deshabilitadas",
       "waitingForTransactions": "Esperando transacciones",
-      "connectingToBlockchain": "Conexión a la cadena de bloques BANANO",
-      "reconnectingToBlockchain": "Desconectado, reconectándose a la cadena de bloques BANANO"
+      "connectingToBlockchain": "Conexión a la cadena de bloques Dogenano",
+      "reconnectingToBlockchain": "Desconectado, reconectándose a la cadena de bloques Dogenano"
     },
     "account": {
       "votingWeight": "Peso de voto",
@@ -173,7 +173,7 @@
       "loadMoreTransactions": "Cargar más transacciones",
       "viewTransactions": "Ver transacciones",
       "notOpenedYet": "Esta cuenta aún no se ha abierto",
-      "notOpenedYetReason": "Si bien la dirección de la cuenta es válida, aún no se han publicado bloques en su cadena. Si BANANO se ha enviado a esta cuenta, aún necesita publicar un bloque correspondiente para guardar los fondos.",
+      "notOpenedYetReason": "Si bien la dirección de la cuenta es válida, aún no se han publicado bloques en su cadena. Si Dogenano se ha enviado a esta cuenta, aún necesita publicar un bloque correspondiente para guardar los fondos.",
       "missingAccount": "Cuenta faltante",
       "missingAccountInfo": "La cuenta no está especificada en la URL. Use la barra de búsqueda superior para buscar una cuenta o añádala en la URL después de /account/",
       "notVoting": "No votar",
@@ -195,7 +195,7 @@
       "missingBlock": "Bloque faltante",
       "missingBlockInfo": "El bloque no está especificado en la URL. Use la barra de búsqueda superior para buscar un bloque o añádalo en la URL después de /block/",
       "blockNotFound": "Bloque no encontrado",
-      "blockNotFoundInfo": "El bloque que solicitaste no se encuentra. Es posible que el bloque esté presente en la red Banano pero el nodo aún no lo haya visto. Asegúrate de buscar el bloque correcto o vuelve a intentarlo más tarde."
+      "blockNotFoundInfo": "El bloque que solicitaste no se encuentra. Es posible que el bloque esté presente en la red Dogenano pero el nodo aún no lo haya visto. Asegúrate de buscar el bloque correcto o vuelve a intentarlo más tarde."
     },
     "representatives": {
       "voteDistribution": "Distribución de votos",
@@ -219,10 +219,10 @@
       "noDelegatorsFound": "No se encontraron delegadores"
     },
     "faucets": {
-      "description": "Faucets le permite reclamar pequeñas cantidades de BANANO de forma gratuita. Estos faucets son para que experimente lo fácil que es enviar y recibir BANANO en todo el mundo al instante en una red descentralizada."
+      "description": "Faucets le permite reclamar pequeñas cantidades de Dogenano de forma gratuita. Estos faucets son para que experimente lo fácil que es enviar y recibir Dogenano en todo el mundo al instante en una red descentralizada."
     },
     "developerFund": {
-      "description": "El fondo para desarrolladores se divide en {{count}} cuentas. El fondo apoya el desarrollo de Banano, proyectos comunitarios y recompensas <0>Folding @ Home</0>.",
+      "description": "El fondo para desarrolladores se divide en {{count}} cuentas. El fondo apoya el desarrollo de Dogenano, proyectos comunitarios y recompensas <0>Folding @ Home</0>.",
       "lastTransaction": "Última transacción",
       "allTransactions": "Ver todas las transacciones de envío",
       "totalAccounts": "{{totalAccounts}} Total de cuentas",
@@ -246,23 +246,23 @@
       "sendTo": "Para"
     },
     "largeTransactions": {
-      "description": "Grandes transacciones que ocurren en la cadena de bloques BANANO.",
+      "description": "Grandes transacciones que ocurren en la cadena de bloques Dogenano.",
       "latest": "Última transacción",
       "largest": "Mayor cantidad"
     },
     "distribution": {
       "title": "Distribución nano",
-      "summary": "Un total de <0>{{i18nTotalAccounts}}</0> cuentas tienen <1>{{i18nTotalBalances}}</1> BANANO",
+      "summary": "Un total de <0>{{i18nTotalAccounts}}</0> cuentas tienen <1>{{i18nTotalBalances}}</1> Dogenano",
       "summaryMinBalance": "Se excluye cualquier cuenta con un saldo inferior a <0>0.001</0>",
       "includeKnownExchanges": "Incluir intercambios conocidos",
       "logScale": "Escala logarítmica",
       "dormantFunds": "Fondos inactivos",
-      "dormantFundsExperiment": "Este es un experimento para comprender cuántas cuentas están activas en la cadena de bloques Banano. Para cada una de las cuentas {{totalAccounts}}, se captura la fecha de la última transacción en el nodo local. El saldo y los montos pendientes que contiene cada cuenta se marcan como activos para el último mes en que se realizaron transacciones. El mes siguiente, el saldo y los pendientes se marcarán como inactivos.",
+      "dormantFundsExperiment": "Este es un experimento para comprender cuántas cuentas están activas en la cadena de bloques Dogenano. Para cada una de las cuentas {{totalAccounts}}, se captura la fecha de la última transacción en el nodo local. El saldo y los montos pendientes que contiene cada cuenta se marcan como activos para el último mes en que se realizaron transacciones. El mes siguiente, el saldo y los pendientes se marcarán como inactivos.",
       "availableSupply": "Suministro nano disponible",
       "knownAccountBalances": "Saldos de cuentas conocidos",
       "unknownDormantFunds": "Fondos inactivos desconocidos",
-      "dormantFundsQuarterExample": "Una cuenta que tiene 50 BANANO y 50 BANANO pendientes han realizado transacciones por última vez hace 6 meses (2 trimestres), un saldo de 100 BANANO se agrega como \"inactivo\" al total del trimestre siguiente.",
-      "dormantBanano": "BANANO durmiendo",
+      "dormantFundsQuarterExample": "Una cuenta que tiene 50 Dogenano y 50 Dogenano pendientes han realizado transacciones por última vez hace 6 meses (2 trimestres), un saldo de 100 Dogenano se agrega como \"inactivo\" al total del trimestre siguiente.",
+      "dormantDogenano": "Dogenano durmiendo",
       "ofAvailableSupply": "de suministro disponible"
     },
     "news": {
@@ -308,7 +308,7 @@
       "database": "Base de datos"
     },
     "exchangeTracker": {
-      "description": "Todos los días se toma una captura de los saldos de las cuentas de los intercambios más populares donde se negocia Banano. Esta medición se puede utilizar para analizar movimientos y fluctuaciones en la red.",
+      "description": "Todos los días se toma una captura de los saldos de las cuentas de los intercambios más populares donde se negocia Dogenano. Esta medición se puede utilizar para analizar movimientos y fluctuaciones en la red.",
       "totalSelected": "Saldo total de los intercambios seleccionados"
     },
     "preferences": {
@@ -338,9 +338,9 @@
       "registerNote": "El nombre de usuario y la cuenta se almacenan en los datos del navegador.",
       "invalidAccount": "Cuenta no válida",
       "playersOnline": "Jugadores online",
-      "welcomeTitle": "¡Salta a la Arena y recibe un pago en BANANO por tus Frags!",
+      "welcomeTitle": "¡Salta a la Arena y recibe un pago en Dogenano por tus Frags!",
       "welcomeDescription": "Bienvenido a la Arena, donde los guerreros de alto rango se transforman en papilla sin espinas. Abandonando cada gramo de sentido común y cualquier rastro de duda, te lanzas a un escenario de paisajes desgarradores y abismos velados. Tu nuevo entorno te rechaza con pozos de lava y peligros atmosféricos mientras legiones de enemigos te rodean, poniendo a prueba la reacción instintiva que te trajo aquí en primer lugar. Tu nuevo mantra: lucha o acaba.",
-      "welcomeDescription2": "¡Juega el juego de disparos en primera persona más vendido de 1999 con tus amigos y otros jugadores de todo el mundo y gana BANANO por destrozarse entre ellos!",
+      "welcomeDescription2": "¡Juega el juego de disparos en primera persona más vendido de 1999 con tus amigos y otros jugadores de todo el mundo y gana Dogenano por destrozarse entre ellos!",
       "gameplay": "Como se Juega",
       "registerErrorUsername": "El nombre de usuario ya está tomado para una dirección diferente",
       "playNanoquakejs": "Juega NanoQuakeJS",

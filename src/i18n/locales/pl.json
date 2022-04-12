@@ -44,8 +44,8 @@
     "link": "Link"
   },
   "nodeHealth": {
-    "nodeReloading": "Banano Node jest przeładowywana",
-    "nodeReady": "Banano Node jest gotowa"
+    "nodeReloading": "Dogenano Node jest przeładowywana",
+    "nodeReady": "Dogenano Node jest gotowa"
   },
   "transaction": {
     "type": "Typ",
@@ -61,35 +61,35 @@
     "amount": "Ilość"
   },
   "tooltips": {
-    "avgConfirmationTime": "Średni czas potwierdzenia jest obliczany lokalnie w Banano Node. Jeśli Banano Node zostanie zrestartowany lub w stanie zdegradowanym, średni czas potwierdzenia może być dłuższy niż w pozostałej części sieci.",
-    "circulatingSupply": "Liczba monet znajdujących się w obiegu. Banano jest w pełni dystrybuowane, podaż nigdy nie wzrośnie.",
-    "transactionFees": "W przeciwieństwie do innych kryptowalut transakcje Banano są zawsze bez opłat.",
-    "cps": "Potwierdzenia na sekundę. Liczba potwierdzonych bloków (wysyłanie lub odbieranie) w sieci BANANO. Jest próbkowany lokalnie w Banano Node w ciągu ostatniej minuty. Jeśli węzeł zostanie zrestartowany lub w złym stanie, wartość CPS może być wyższa lub niższa od rzeczywistej średniej w sieci, podczas gdy węzeł synchronizuje się i ponownie łączy z innymi węzłami.",
-    "votingWeight": "Aby uzyskać status głównego przedstawiciela, wymagane jest konto z co najmniej {{minWeight}} BANANO lub >= 0,1% oddelegowanej wagi głosowania online. Po skonfigurowaniu na węźle, który głosuje, głosy, które generuje, będą ponownie transmitowane przez inne węzły, które je otrzymują, pomagając sieci szybciej osiągnąć konsensus.",
+    "avgConfirmationTime": "Średni czas potwierdzenia jest obliczany lokalnie w Dogenano Node. Jeśli Dogenano Node zostanie zrestartowany lub w stanie zdegradowanym, średni czas potwierdzenia może być dłuższy niż w pozostałej części sieci.",
+    "circulatingSupply": "Liczba monet znajdujących się w obiegu. Dogenano jest w pełni dystrybuowane, podaż nigdy nie wzrośnie.",
+    "transactionFees": "W przeciwieństwie do innych kryptowalut transakcje Dogenano są zawsze bez opłat.",
+    "cps": "Potwierdzenia na sekundę. Liczba potwierdzonych bloków (wysyłanie lub odbieranie) w sieci Dogenano. Jest próbkowany lokalnie w Dogenano Node w ciągu ostatniej minuty. Jeśli węzeł zostanie zrestartowany lub w złym stanie, wartość CPS może być wyższa lub niższa od rzeczywistej średniej w sieci, podczas gdy węzeł synchronizuje się i ponownie łączy z innymi węzłami.",
+    "votingWeight": "Aby uzyskać status głównego przedstawiciela, wymagane jest konto z co najmniej {{minWeight}} Dogenano lub >= 0,1% oddelegowanej wagi głosowania online. Po skonfigurowaniu na węźle, który głosuje, głosy, które generuje, będą ponownie transmitowane przez inne węzły, które je otrzymują, pomagając sieci szybciej osiągnąć konsensus.",
     "pending": "Stan transakcji, w którym blok wysyłający środki został opublikowany i potwierdzony przez sieć, ale pasujący blok otrzymujący te środki nie został jeszcze wysłany ani potwierdzony.",
-    "nakamotoCoefficient": "Współczynnik Nakamoto jest sposobem kwantyfikacji decentralizacji łańcucha bloków lub innego zdecentralizowanego systemu. Jest to liczba jednostek potrzebnych do skompromitowania co najmniej jednego podstawowego podsystemu. W przypadku Banano ponad {{onlineWeightQuorumPercent}}% głosów w głosowaniu online głównych przedstawicieli musiałoby zostać naruszone.",
-    "representatives": "Aby zoptymalizować wyniki, brane są pod uwagę tylko konta z wagą głosu >= 1000 BANANO, ale zwykle konta z wagą głosu> 0, ale < 0,1% wagi głosu online.",
-    "principalRepresentatives": "Aby uzyskać status głównego przedstawiciela, wymagane jest konto z co najmniej {{primaryRepresentativeMinWeight}} BANANO lub >= 0,1% oddelegowanej wagi głosów online. Po skonfigurowaniu na węźle, który głosuje, głosy, które generuje, będą ponownie transmitowane przez inne węzły, które je otrzymują, pomagając sieci szybciej osiągnąć konsensus.",
+    "nakamotoCoefficient": "Współczynnik Nakamoto jest sposobem kwantyfikacji decentralizacji łańcucha bloków lub innego zdecentralizowanego systemu. Jest to liczba jednostek potrzebnych do skompromitowania co najmniej jednego podstawowego podsystemu. W przypadku Dogenano ponad {{onlineWeightQuorumPercent}}% głosów w głosowaniu online głównych przedstawicieli musiałoby zostać naruszone.",
+    "representatives": "Aby zoptymalizować wyniki, brane są pod uwagę tylko konta z wagą głosu >= 1000 Dogenano, ale zwykle konta z wagą głosu> 0, ale < 0,1% wagi głosu online.",
+    "principalRepresentatives": "Aby uzyskać status głównego przedstawiciela, wymagane jest konto z co najmniej {{primaryRepresentativeMinWeight}} Dogenano lub >= 0,1% oddelegowanej wagi głosów online. Po skonfigurowaniu na węźle, który głosuje, głosy, które generuje, będą ponownie transmitowane przez inne węzły, które je otrzymują, pomagając sieci szybciej osiągnąć konsensus.",
     "onlinePrincipalRepresentatives": "Konta przedstawicieli online, które niedawno głosowały.",
     "lastTransaction": "Ostatnia transakcja wysłana z dowolnego z kont {{totalAccounts}}.",
-    "largeTransactions": "Tylko transakcje wysyłania 10 000 BANANO lub więcej są tymczasowo zapisywane na jeden tydzień.",
-    "knownExchangeBalance": "Wyklucz {{knownExchangeList}} z wykresu dystrybucji. Te konta łącznie posiadają {{knownExchangeBalance}} BANANO",
-    "unchecked": "Bloki (transakcje), które zostały pobrane, ale nie zostały jeszcze przetworzone przez Node Banano. Oprogramowanie węzła pobiera wszystkie blokady z innych węzłów jako niezaznaczone, przetwarza je i dodaje do liczby bloków, potwierdza bloki graniczne dla każdego konta, a następnie oznacza je jako zacementowane.",
+    "largeTransactions": "Tylko transakcje wysyłania 10 000 Dogenano lub więcej są tymczasowo zapisywane na jeden tydzień.",
+    "knownExchangeBalance": "Wyklucz {{knownExchangeList}} z wykresu dystrybucji. Te konta łącznie posiadają {{knownExchangeBalance}} Dogenano",
+    "unchecked": "Bloki (transakcje), które zostały pobrane, ale nie zostały jeszcze przetworzone przez Node Dogenano. Oprogramowanie węzła pobiera wszystkie blokady z innych węzłów jako niezaznaczone, przetwarza je i dodaje do liczby bloków, potwierdza bloki graniczne dla każdego konta, a następnie oznacza je jako zacementowane.",
     "cemented": "Gdy określony węzeł oznacza potwierdzoną transakcję jako lokalnie nieodwracalną, ustawiając wysokość potwierdzenia konta (w bazie danych węzłów) na wyższą teraz wysokość bloku potwierdzonej transakcji. Cementowanie jest operacją na poziomie węzła.",
-    "unknownLastTransaction": "Daty transakcji zostały wprowadzone w lutym 2019 r. Przed tą datą czasy transakcji nie były rejestrowane lokalnie na węzłach. Powodem, dla którego data ostatniej transakcji jest nieznana, jest to, że została potwierdzona przed zapisaniem dat lub przed uruchomieniem węzła BananoLooker.",
+    "unknownLastTransaction": "Daty transakcji zostały wprowadzone w lutym 2019 r. Przed tą datą czasy transakcji nie były rejestrowane lokalnie na węzłach. Powodem, dla którego data ostatniej transakcji jest nieznana, jest to, że została potwierdzona przed zapisaniem dat lub przed uruchomieniem węzła DogenanoLooker.",
     "confirmationHeight": "Liczba przechowywana w bazie danych węzłów lokalnych, która reprezentuje najwyższy (najnowszy) potwierdzony blok w łańcuchu kont. Związane z (ale różniące się od) wysokości bloku.",
     "blockHeight": "Lokalna liczba całkowita, która reprezentuje kolejność bloku w łańcuchu kont. Na przykład piętnasty blok na koncie miałby wysokość 15. Związany z (ale różną od) wysokości potwierdzenia.",
     "bookmarks": "Zakładki {{type, capitalize}} są zapisywane na Twoim urządzeniu. Możesz zarządzać swoimi znanymi {{type}}, nadając im aliasy.",
     "groupByEntities": "Przegrupuj wszystkie wagi głosów, które są podzielone na różnych głównych przedstawicieli w pojedyncze jednostki. Na przykład giełda może mieć wiele portfeli i podzielić ich wagę, ale w rzeczywistości można ją policzyć jako jedną wagę, jeśli miałyby ją przegrupować.",
     "telemetry": "Metryki z innych węzłów w sieci. Wszystkie metryki są zbierane i uśredniane, aby przedstawić różne stany w sieci. P odpowiada percentylowi, p50 jest obliczane poprzez wykluczenie dolnych 50%, podczas gdy p95 wyklucza dolne 5% różnych wartości w celu obliczenia średniej.",
-    "ledgerSize": "Całkowita ilość miejsca na dysku wymagana do przechowywania wszystkich dotychczasowych transakcji Banano. Rozmiar księgi jest obliczany na podstawie 1024, a nie 1000.",
-    "bandwidthCap": "Banano Node mogą ograniczać przepustowość, aby ograniczyć liczbę wiadomości, które mogą być wysyłane lub odbierane. 0 oznacza nieograniczoną przepustowość.",
-    "uptime": "Czas od ostatniego restartu Banano Node.",
+    "ledgerSize": "Całkowita ilość miejsca na dysku wymagana do przechowywania wszystkich dotychczasowych transakcji Dogenano. Rozmiar księgi jest obliczany na podstawie 1024, a nie 1000.",
+    "bandwidthCap": "Dogenano Node mogą ograniczać przepustowość, aby ograniczyć liczbę wiadomości, które mogą być wysyłane lub odbierane. 0 oznacza nieograniczoną przepustowość.",
+    "uptime": "Czas od ostatniego restartu Dogenano Node.",
     "pendingTransactionCount": "Liczba oczekujących transakcji przekracza wyświetlany limit {{count}}.",
-    "mnano": "Mnano to obecny standardowy podział stosowany w portfelach, giełdach i usługach. Nazywa się 1 BANANO.",
-    "versionsByWeight": "Aby wersja przejęła konsensus sieci, musi mieć {{onlineWeightQuorumPercent}}% głosów online z co najmniej {{onlineWeightMinimum}} BANANO.",
-    "onChainVolume": "Suma wszystkich transakcji BANANO, które zostały potwierdzone w sieci. Jeśli użytkownik A wyśle 1 BANANO, a użytkownik B otrzyma 1 BANANO tego samego dnia, 2 BANANO zostaną dodane do dziennego wolumenu, ponieważ 2 transakcje zostały wyemitowane i potwierdzone, wysłanie i odbiór.",
-    "oneBanEqualsOneDoge": "Zabawne porównanie z naszym łańcuchem braci doge memów, jeśli kapitalizacja rynkowa Banano byłaby równa kapitalizacji Doge."
+    "mnano": "Mnano to obecny standardowy podział stosowany w portfelach, giełdach i usługach. Nazywa się 1 Dogenano.",
+    "versionsByWeight": "Aby wersja przejęła konsensus sieci, musi mieć {{onlineWeightQuorumPercent}}% głosów online z co najmniej {{onlineWeightMinimum}} Dogenano.",
+    "onChainVolume": "Suma wszystkich transakcji Dogenano, które zostały potwierdzone w sieci. Jeśli użytkownik A wyśle 1 Dogenano, a użytkownik B otrzyma 1 Dogenano tego samego dnia, 2 Dogenano zostaną dodane do dziennego wolumenu, ponieważ 2 transakcje zostały wyemitowane i potwierdzone, wysłanie i odbiór.",
+    "oneBanEqualsOneDoge": "Zabawne porównanie z naszym łańcuchem braci doge memów, jeśli kapitalizacja rynkowa Dogenano byłaby równa kapitalizacji Doge."
   },
   "search": {
     "searchBy": "Szukaj według Adresu / Bloku / Znanego konta",
@@ -101,20 +101,20 @@
     "darkMode": "Tryb ciemny",
     "darkModeDetailed": "Przełącz się z trybu jasnego lub ciemnego, aby poprawić jakość przeglądania stron w zależności od twojego otoczenia.",
     "language": "Język",
-    "languageDetailed": "Wybierz żądany język. BananoLooker szuka ludzi, którzy pomogą ulepszyć tłumaczenie eksploratora. <0>Przekaż</0>",
+    "languageDetailed": "Wybierz żądany język. DogenanoLooker szuka ludzi, którzy pomogą ulepszyć tłumaczenie eksploratora. <0>Przekaż</0>",
     "watch": "Obserwuj inne kryptowaluty",
     "watchSearch": "Szukaj kryptowalut",
     "watchDetailed": "Obserwuj ceny innych kryptowalut w pierwszej setce. Aktualne ceny rynkowe i zmiany w ciągu 24 godzin pojawią się na górnym pasku. Możesz również zmienić kolejność wyboru, korzystając z metody przeciągnij i upuść.",
     "fiatCurrency": "Waluta Fiat",
-    "fiatCurrencyDetailed": "Pieniądz fiat jest walutą emitowaną przez rząd. Wybierz walutę fiducjarną, aby porównać cenę Banano.",
+    "fiatCurrencyDetailed": "Pieniądz fiat jest walutą emitowaną przez rząd. Wybierz walutę fiducjarną, aby porównać cenę Dogenano.",
     "natricons": "Natricony",
-    "natriconsDetailed": "Natricony są przyjazną, znajomą twarzą dla adresów Banano. Używaj ich na stronach konta, wszędzie tam, gdzie w pobliżu znajduje się adres Banano.",
+    "natriconsDetailed": "Natricony są przyjazną, znajomą twarzą dla adresów Dogenano. Używaj ich na stronach konta, wszędzie tam, gdzie w pobliżu znajduje się adres Dogenano.",
     "liveTransactions": "Włącz aktualizacje na żywo",
-    "liveTransactionsDetailed": "Oglądaj transakcje na żywo zachodzące w sieci Banano. Dostępne na stronie głównej.",
-    "contribute": "Pomóż rozwinąć Bananolooker",
+    "liveTransactionsDetailed": "Oglądaj transakcje na żywo zachodzące w sieci Dogenano. Dostępne na stronie głównej.",
+    "contribute": "Pomóż rozwinąć Dogenanolooker",
     "filterTransactionsRange": "Uwzględnij zakresy kwot",
     "filterTransactionsRangeDetailed": "Ustaw niestandardowy zakres filtrowania",
-    "filterTransactions": "Ukryj kwoty poniżej 1 BANANO"
+    "filterTransactions": "Ukryj kwoty poniżej 1 Dogenano"
   },
   "menu": {
     "explore": "Przeglądaj",
@@ -124,20 +124,20 @@
     "largeTransactions": "Duże transakcje",
     "distribution": "Dystrybucja",
     "exchangeTracker": "Eksplorator Giełd",
-    "faucets": "Krany Banano",
+    "faucets": "Krany Dogenano",
     "news": "Aktualności",
     "status": "Status",
     "networkStatus": "Status sieci",
-    "nodeStatus": "Stan Banano node",
-    "whatIsBanano": "Co to jest Banano?",
-    "earnBanano": "Zarabiaj Banano",
+    "nodeStatus": "Stan Dogenano node",
+    "whatIsDogenano": "Co to jest Dogenano?",
+    "earnDogenano": "Zarabiaj Dogenano",
     "preferences": "Preferencje"
   },
   "footer": {
     "createdBy": "Stworzono przez {{creator}}",
     "donations": {
       "donate": "Daj Dotację",
-      "title": "Konto darowizn BananoLooker"
+      "title": "Konto darowizn DogenanoLooker"
     }
   },
   "pages": {
@@ -154,14 +154,14 @@
       "last24Hours": "Ostatnie 24 godziny",
       "avgConfirmationTime": "Śr. czas potwierdzenia (w sekundach)",
       "confirmedTransactions": "Potwierdzone transakcje",
-      "transactionFees": "Opłaty transakcyjne BANANO",
+      "transactionFees": "Opłaty transakcyjne Dogenano",
       "exchangeVolume": "Wolumen wymiany",
-      "onChainVolume": "Objętość BANANO w łańcuchu",
+      "onChainVolume": "Objętość Dogenano w łańcuchu",
       "recentTransactions": "ostatnie tranzakcje",
       "liveUpdatesDisabled": "Aktualizacje na żywo wyłączone",
       "waitingForTransactions": "Czekam na transakcje",
-      "connectingToBlockchain": "Łączenie się z blockchainem BANANO",
-      "reconnectingToBlockchain": "Rozłączono, ponownie łączę się z łańcuchem bloków BANANO",
+      "connectingToBlockchain": "Łączenie się z blockchainem Dogenano",
+      "reconnectingToBlockchain": "Rozłączono, ponownie łączę się z łańcuchem bloków Dogenano",
       "oneBanEqualsOneDoge": "A co jeśli 1 ban = 1 doż?"
     },
     "account": {
@@ -176,7 +176,7 @@
       "loadMoreTransactions": "Załaduj więcej transakcji",
       "viewTransactions": "Zobacz transakcje",
       "notOpenedYet": "To konto nie zostało jeszcze otwarte",
-      "notOpenedYetReason": "Chociaż adres konta jest prawidłowy, żadne bloki nie zostały jeszcze opublikowane w jego łańcuchu. Jeśli BANANO zostało wysłane na to konto, nadal musi opublikować odpowiedni blok, aby zdobyć środki.",
+      "notOpenedYetReason": "Chociaż adres konta jest prawidłowy, żadne bloki nie zostały jeszcze opublikowane w jego łańcuchu. Jeśli Dogenano zostało wysłane na to konto, nadal musi opublikować odpowiedni blok, aby zdobyć środki.",
       "missingAccount": "Brakujące konto",
       "missingAccountInfo": "Konto nie jest określone w adresie URL. Użyj górnego paska wyszukiwania, aby wyszukać konto lub dołączyć go w adresie URL po /account/"
     },
@@ -195,7 +195,7 @@
       "missingBlock": "Brakujący blok",
       "missingBlockInfo": "Blok nie jest określony w adresie URL. Użyj górnego paska wyszukiwania, aby wyszukać blok lub dołącz go w adresie URL po /block/",
       "blockNotFound": "Nie znaleziono bloku",
-      "blockNotFoundInfo": "Nie znaleziono żądanego bloku. Możliwe, że blok jest obecny w sieci Banano, ale nie został jeszcze zauważony przez węzeł. Upewnij się, że szukasz odpowiedniego bloku lub spróbuj ponownie później."
+      "blockNotFoundInfo": "Nie znaleziono żądanego bloku. Możliwe, że blok jest obecny w sieci Dogenano, ale nie został jeszcze zauważony przez węzeł. Upewnij się, że szukasz odpowiedniego bloku lub spróbuj ponownie później."
     },
     "representatives": {
       "voteDistribution": "Dystrybucja głosów",
@@ -219,10 +219,10 @@
       "noDelegatorsFound": "Nie znaleziono delegatorów"
     },
     "faucets": {
-      "description": "Dzięki kranom możesz bezpłatnie odebrać niewielkie ilości BANANO. Dzięki tym sumom możesz przekonać się, jak łatwo jest błyskawicznie wysyłać i odbierać BANANO na całym świecie w zdecentralizowanej sieci."
+      "description": "Dzięki kranom możesz bezpłatnie odebrać niewielkie ilości Dogenano. Dzięki tym sumom możesz przekonać się, jak łatwo jest błyskawicznie wysyłać i odbierać Dogenano na całym świecie w zdecentralizowanej sieci."
     },
     "developerFund": {
-      "description": "Fundusz deweloperski jest podzielony na {{count}} konta. Fundusz wspiera rozwój Banano, projekty społecznościowe i nagrody <0>Folding @ Home</0>.",
+      "description": "Fundusz deweloperski jest podzielony na {{count}} konta. Fundusz wspiera rozwój Dogenano, projekty społecznościowe i nagrody <0>Folding @ Home</0>.",
       "lastTransaction": "Ostatnia transakcja",
       "allTransactions": "Wyświetl wszystkie wysłane transakcje",
       "totalAccounts": "Łączna liczba kont: {{totalAccounts}}",
@@ -246,23 +246,23 @@
       "sendTo": "Do"
     },
     "largeTransactions": {
-      "description": "Duże transakcje na blockchainie BANANO.",
+      "description": "Duże transakcje na blockchainie Dogenano.",
       "latest": "Ostatnia transakcja",
       "largest": "Największa kwota"
     },
     "distribution": {
-      "title": "Dystrybucja BANANO",
-      "summary": "Ogółem <0>{{i18nTotalAccounts}}</0> rachunków zawiera <1>{{i18nTotalBalances}}</1> BANANO",
+      "title": "Dystrybucja Dogenano",
+      "summary": "Ogółem <0>{{i18nTotalAccounts}}</0> rachunków zawiera <1>{{i18nTotalBalances}}</1> Dogenano",
       "summaryMinBalance": "Każde konto z saldem poniżej <0>0,001</0> jest wykluczone",
       "includeKnownExchanges": "Uwzględnij znane giełdy",
       "logScale": "Skala logarytmiczna",
       "dormantFunds": "Uśpione fundusze",
-      "dormantFundsExperiment": "Jest to eksperyment mający na celu zrozumienie, ile kont jest aktywnych w łańcuchu bloków Banano. Dla każdego z kont {{totalAccounts}} rejestrowana jest data ostatniej transakcji w węźle lokalnym. Saldo i oczekujące kwoty, które zawiera każde konto, są oznaczone jako aktywne w miesiącu, w którym przeprowadzono ostatnią transakcję. W następnym miesiącu saldo i oczekujące zostaną oznaczone jako nieaktywne.",
-      "availableSupply": "Banano dostępne dostawy",
+      "dormantFundsExperiment": "Jest to eksperyment mający na celu zrozumienie, ile kont jest aktywnych w łańcuchu bloków Dogenano. Dla każdego z kont {{totalAccounts}} rejestrowana jest data ostatniej transakcji w węźle lokalnym. Saldo i oczekujące kwoty, które zawiera każde konto, są oznaczone jako aktywne w miesiącu, w którym przeprowadzono ostatnią transakcję. W następnym miesiącu saldo i oczekujące zostaną oznaczone jako nieaktywne.",
+      "availableSupply": "Dogenano dostępne dostawy",
       "knownAccountBalances": "Znane salda kont",
       "unknownDormantFunds": "Nieznane nieaktywne fundusze",
-      "dormantFundsQuarterExample": "Rachunek, na którym znajduje się 50 BANANO i 50 oczekujących na transakcje BANANO, ostatnio dokonano transakcji 6 miesięcy temu (2 kwartały), saldo 100 BANANO jest dodawane jako „nieaktywne” do sumy z następnego kwartału.",
-      "dormantBanano": "Śpiąca BANANO",
+      "dormantFundsQuarterExample": "Rachunek, na którym znajduje się 50 Dogenano i 50 oczekujących na transakcje Dogenano, ostatnio dokonano transakcji 6 miesięcy temu (2 kwartały), saldo 100 Dogenano jest dodawane jako „nieaktywne” do sumy z następnego kwartału.",
+      "dormantDogenano": "Śpiąca Dogenano",
       "ofAvailableSupply": "dostępnej podaży"
     },
     "news": {
@@ -276,7 +276,7 @@
       "unchecked": "Niesprawdzone",
       "cemented": "Cementowane",
       "ledger": "Księga główna",
-      "availableSupply": "Aktualna dostępna ilość BANANO w sieci",
+      "availableSupply": "Aktualna dostępna ilość Dogenano w sieci",
       "ledgerSize": "Rozmiar księgi",
       "activeDifficulty": "Aktywna trudność",
       "networkMinimum": "Minimalna sieć",
@@ -308,7 +308,7 @@
       "database": "Baza danych"
     },
     "exchangeTracker": {
-      "description": "Codziennie zbierane są salda kont najpopularniejszych giełd, na których handluje się Banano. Pomiar ten można wykorzystać do analizy ruchów i fluktuacji w sieci.",
+      "description": "Codziennie zbierane są salda kont najpopularniejszych giełd, na których handluje się Dogenano. Pomiar ten można wykorzystać do analizy ruchów i fluktuacji w sieci.",
       "totalSelected": "Łączne saldo wybranych giełd"
     },
     "preferences": {
@@ -340,9 +340,9 @@
       "registerNote": "Nazwa użytkownika i konto są przechowywane w danych przeglądarki.",
       "invalidAccount": "Nieprawidłowe konto",
       "playersOnline": "Gracze online",
-      "welcomeTitle": "Wskocz na arenę i zarabiaj w BANANO za swoje Fragi!",
+      "welcomeTitle": "Wskocz na arenę i zarabiaj w Dogenano za swoje Fragi!",
       "welcomeDescription": "Witamy na Arenie, gdzie wysocy rangą wojownicy zamieniają się w pozbawioną kręgosłupa papkę. Porzucając wszelką nutę zdrowego rozsądku i wszelkie ślady wątpliwości, rzucasz się na scenę wstrząsających krajobrazów i zawoalowanych otchłani. Twoje nowe środowisko odrzuca cię z dołami lawy i zagrożeniami atmosferycznymi, gdy otaczają cię legiony wrogów, testując reakcję jelit, która cię tu przywiodła. Twoja nowa mantra: walcz lub skończ.",
-      "welcomeDescription2": "Zagraj w najlepiej sprzedającą się strzelankę FPS z 1999 r. ze znajomymi i innymi graczami z całego świata, zdobywając BANANO za wzajemne fragowanie!",
+      "welcomeDescription2": "Zagraj w najlepiej sprzedającą się strzelankę FPS z 1999 r. ze znajomymi i innymi graczami z całego świata, zdobywając Dogenano za wzajemne fragowanie!",
       "gameplay": "Rozgrywka",
       "registerErrorUsername": "Ta nazwa użytkownika jest już zajęta dla innego adresu",
       "playNanoquakejs": "Zagraj w NanoQuakeJS",

@@ -44,8 +44,8 @@
     "link": "Koppeling"
   },
   "nodeHealth": {
-    "nodeReloading": "Banano node wordt opnieuw geladen",
-    "nodeReady": "Banano node is klaar"
+    "nodeReloading": "Dogenano node wordt opnieuw geladen",
+    "nodeReady": "Dogenano node is klaar"
   },
   "transaction": {
     "type": "Type",
@@ -62,34 +62,34 @@
   },
   "tooltips": {
     "avgConfirmationTime": "De gemiddelde bevestigingstijd wordt lokaal op de node berekend. Als de node opnieuw wordt opgestart of in slechte staat verkeert, kan de gemiddelde bevestigingstijd langer zijn dan die van de rest van het netwerk.",
-    "circulatingSupply": "Het aantal munten dat in omloop is. Banano is volledig gedistribueerd, het aantal munten in omloop zal nooit toenemen.",
+    "circulatingSupply": "Het aantal munten dat in omloop is. Dogenano is volledig gedistribueerd, het aantal munten in omloop zal nooit toenemen.",
     "transactionFees": "In tegenstelling tot andere cryptovaluta zijn nano transacties voor altijd kostenloos.",
-    "cps": "Aantal bevestigingen per seconde. Het aantal bevestigde blocks (verzenden of ontvangen) op het BANANO netwerk. Het wordt elke minuut lokaal op de node gesampled. Als de node opnieuw wordt opgestart of in een verslechterde toestand verkeert, kan de CPS waarde hoger of lager zijn dan het werkelijke gemiddelde op het netwerk terwijl de node synchroniseert en opnieuw verbinding maakt met de andere nodes.",
-    "votingWeight": "Een account met een minimum van {{minWeight}} BANANO of >= 0,1% van het online stemgewicht eraan gedelegeerd, is vereist om de status van hoofdvertegenwoordiger te krijgen. Indien geconfigureerd op een stemmende node, worden de stemmen die de node genereert opnieuw uitgezonden door andere nodes die de stemmen ontvangen, waardoor het netwerk sneller consensus kan bereiken.",
+    "cps": "Aantal bevestigingen per seconde. Het aantal bevestigde blocks (verzenden of ontvangen) op het Dogenano netwerk. Het wordt elke minuut lokaal op de node gesampled. Als de node opnieuw wordt opgestart of in een verslechterde toestand verkeert, kan de CPS waarde hoger of lager zijn dan het werkelijke gemiddelde op het netwerk terwijl de node synchroniseert en opnieuw verbinding maakt met de andere nodes.",
+    "votingWeight": "Een account met een minimum van {{minWeight}} Dogenano of >= 0,1% van het online stemgewicht eraan gedelegeerd, is vereist om de status van hoofdvertegenwoordiger te krijgen. Indien geconfigureerd op een stemmende node, worden de stemmen die de node genereert opnieuw uitgezonden door andere nodes die de stemmen ontvangen, waardoor het netwerk sneller consensus kan bereiken.",
     "pending": "Een transactiestatus waarbij een block dat geld verzendt, is gepubliceerd en bevestigd door het netwerk, maar een overeenkomend block dat het geld ontvangt, nog niet is verzonden of bevestigd.",
-    "nakamotoCoefficient": "De Nakamoto-coëfficiënt is een manier om de decentralisatie van een cryptovaluta of ander gedecentraliseerd systeem te kwantificeren. Het is het aantal entiteiten dat nodig is hebt om ten minste één essentieel subsysteem in gevaar te brengen. Voor Banano zou meer dan {{onlineWeightQuorumPercent}}% van het online stemgewicht van hoofdvertegenwoordigers in gevaar moeten worden gebracht.",
-    "representatives": "Om de prestaties te optimaliseren, worden alleen accounts met een stemgewicht >= 1000 BANANO in aanmerking genomen; maar normaal gesproken elke account met een stemgewicht > 0, maar < 0,1% van het online stemgewicht.",
-    "principalRepresentatives": "Een account met een minimum van {{principalRepresentativeMinWeight}} BANANO of >= 0,1% van het online stemgewicht eraan gedelegeerd, is vereist om de status van hoofdvertegenwoordiger te krijgen. Indien geconfigureerd op een stemmende node, worden de stemmen die de node genereert opnieuw uitgezonden door andere nodes die de stemmen ontvangen, waardoor het netwerk sneller consensus kan bereiken.",
+    "nakamotoCoefficient": "De Nakamoto-coëfficiënt is een manier om de decentralisatie van een cryptovaluta of ander gedecentraliseerd systeem te kwantificeren. Het is het aantal entiteiten dat nodig is hebt om ten minste één essentieel subsysteem in gevaar te brengen. Voor Dogenano zou meer dan {{onlineWeightQuorumPercent}}% van het online stemgewicht van hoofdvertegenwoordigers in gevaar moeten worden gebracht.",
+    "representatives": "Om de prestaties te optimaliseren, worden alleen accounts met een stemgewicht >= 1000 Dogenano in aanmerking genomen; maar normaal gesproken elke account met een stemgewicht > 0, maar < 0,1% van het online stemgewicht.",
+    "principalRepresentatives": "Een account met een minimum van {{principalRepresentativeMinWeight}} Dogenano of >= 0,1% van het online stemgewicht eraan gedelegeerd, is vereist om de status van hoofdvertegenwoordiger te krijgen. Indien geconfigureerd op een stemmende node, worden de stemmen die de node genereert opnieuw uitgezonden door andere nodes die de stemmen ontvangen, waardoor het netwerk sneller consensus kan bereiken.",
     "onlinePrincipalRepresentatives": "Online hoofdvertegenwoordiger accounts die onlangs hebben gestemd.",
     "lastTransaction": "Laatste verzonden transactie van één van de {{totalAccounts}} - accounts.",
-    "largeTransactions": "Alleen verstuurde transacties van 10.000 BANANO of meer worden tijdelijk één week bewaard.",
-    "knownExchangeBalance": "Sluit {{knownExchangeList}} uit van het distributiegrafiek. Die accounts gecombineerd bevatten {{knownExchangeBalance}} BANANO",
-    "unchecked": "Blocks (transacties) die zijn gedownload maar nog niet verwerkt door de Banano node. De node software downloadt alle blockken van andere nodes als ongecontroleerd, verwerkt ze en voegt toe aan het aantal blockken, bevestigt de grensblockken voor elk account en markeert ze vervolgens als gecementeerd.",
+    "largeTransactions": "Alleen verstuurde transacties van 10.000 Dogenano of meer worden tijdelijk één week bewaard.",
+    "knownExchangeBalance": "Sluit {{knownExchangeList}} uit van het distributiegrafiek. Die accounts gecombineerd bevatten {{knownExchangeBalance}} Dogenano",
+    "unchecked": "Blocks (transacties) die zijn gedownload maar nog niet verwerkt door de Dogenano node. De node software downloadt alle blockken van andere nodes als ongecontroleerd, verwerkt ze en voegt toe aan het aantal blockken, bevestigt de grensblockken voor elk account en markeert ze vervolgens als gecementeerd.",
     "cemented": "Wanneer een specifieke node een bevestigde transactie markeert als lokaal onomkeerbaar door de bevestigingshoogte van de account (in de node database) in te stellen op de nu hogere blockhoogte van de bevestigde transactie. Cementeren is een bewerking op node niveau.",
-    "unknownLastTransaction": "In februari 2019 zijn transactiedata geïntroduceerd. Voorafgaand aan die datum werden de transactietijden niet lokaal op de nodes geregistreerd. De reden waarom de laatste transactiedatum onbekend is, is omdat deze werd bevestigd voordat de datums werden geregistreerd of voordat de BananoLooker node in gebruik was.",
+    "unknownLastTransaction": "In februari 2019 zijn transactiedata geïntroduceerd. Voorafgaand aan die datum werden de transactietijden niet lokaal op de nodes geregistreerd. De reden waarom de laatste transactiedatum onbekend is, is omdat deze werd bevestigd voordat de datums werden geregistreerd of voordat de DogenanoLooker node in gebruik was.",
     "confirmationHeight": "Een nummer dat is opgeslagen in de lokale node database en dat het hoogste (meest recente) bevestigde block in een accountketen vertegenwoordigt. Gerelateerd aan (maar verschillend van) blockhoogte.",
     "blockHeight": "Een lokale integerwaarde die de volgorde van een block in een accountketen vertegenwoordigt. Het 15e block in een account heeft bijvoorbeeld een blockhoogte van 15. Gerelateerd aan (maar anders dan) bevestigingshoogte.",
     "bookmarks": "{{type, capitalize}} bladwijzers worden op uw apparaat opgeslagen. U kunt uw bekende {{type}}s beheren door ze aliassen te geven.",
     "groupByEntities": "Groepeer al het stemgewicht dat is opgesplitst in verschillende hoofdvertegenwoordigers in afzonderlijke entiteiten. Een exchange kan bijvoorbeeld meerdere portemonnees hebben en hun gewicht verdelen, maar in werkelijkheid kan het als een enkel gewicht worden geteld als ze het zouden hergroeperen.",
     "telemetry": "Metrische gegevens van andere nodes op het netwerk. Alle statistieken worden verzameld en gemiddeld om verschillende statussen op het netwerk weer te geven. P komt overeen met percentiel, p50 wordt berekend door de onderste 50% uit te sluiten, terwijl de p95 de onderste 5% van de verschillende waarden uitsluit om het gemiddelde te berekenen.",
-    "ledgerSize": "De totale hoeveelheid schijfruimte die tot nu toe nodig is om alle Banano transacties op te slaan. De databasegrootte wordt uitgedrukt in binaire groottes (mebibyte) in plaats van decimaal (megabyte).",
-    "bandwidthCap": "Banano nodes kunnen hun bandbreedte beperken om het aantal berichten dat kan worden verzonden of ontvangen te beperken. 0 staat voor een onbeperkte bandbreedte.",
+    "ledgerSize": "De totale hoeveelheid schijfruimte die tot nu toe nodig is om alle Dogenano transacties op te slaan. De databasegrootte wordt uitgedrukt in binaire groottes (mebibyte) in plaats van decimaal (megabyte).",
+    "bandwidthCap": "Dogenano nodes kunnen hun bandbreedte beperken om het aantal berichten dat kan worden verzonden of ontvangen te beperken. 0 staat voor een onbeperkte bandbreedte.",
     "uptime": "Tijd sinds de node voor het laatst opnieuw is opgestart.",
     "pendingTransactionCount": "Het aantal lopende transacties overschrijdt de weergavelimiet van {{count}}.",
-    "mnano": "Mnano is de huidige standaarddivisie die wordt gebruikt in portefeuilles, beurzen en services. Het wordt 1 BANANO genoemd.",
-    "versionsByWeight": "Om een versie de consensus van het netwerk te laten overnemen, moet deze {{onlineWeightQuorumPercent}}% van het online stemgewicht hebben van minimaal {{onlineWeightMinimum}} BANANO.",
-    "onChainVolume": "De som van alle BANANO-transacties die op het netwerk zijn bevestigd. Als gebruiker A 1 BANANO verzendt en gebruiker B 1 BANANO op dezelfde dag ontvangt, wordt 2 BANANO toegevoegd aan het dagelijkse volume omdat er 2 transacties zijn uitgezonden en bevestigd, een verzenden en een ontvangen.",
-    "oneBanEqualsOneDoge": "Leuke vergelijking met onze doge meme-broederketen, als de marktkapitalisatie van Banano gelijk zou zijn aan die van Doge."
+    "mnano": "Mnano is de huidige standaarddivisie die wordt gebruikt in portefeuilles, beurzen en services. Het wordt 1 Dogenano genoemd.",
+    "versionsByWeight": "Om een versie de consensus van het netwerk te laten overnemen, moet deze {{onlineWeightQuorumPercent}}% van het online stemgewicht hebben van minimaal {{onlineWeightMinimum}} Dogenano.",
+    "onChainVolume": "De som van alle Dogenano-transacties die op het netwerk zijn bevestigd. Als gebruiker A 1 Dogenano verzendt en gebruiker B 1 Dogenano op dezelfde dag ontvangt, wordt 2 Dogenano toegevoegd aan het dagelijkse volume omdat er 2 transacties zijn uitgezonden en bevestigd, een verzenden en een ontvangen.",
+    "oneBanEqualsOneDoge": "Leuke vergelijking met onze doge meme-broederketen, als de marktkapitalisatie van Dogenano gelijk zou zijn aan die van Doge."
   },
   "search": {
     "searchBy": "Zoeken op adres / block / bekend account",
@@ -101,20 +101,20 @@
     "darkMode": "Donkere modus",
     "darkModeDetailed": "Schakel over van de lichte of donkere modus om de browse-ervaring te verbeteren, afhankelijk van uw omgeving.",
     "language": "Taal",
-    "languageDetailed": "Kies de gewenste taal. BananoLooker zoekt vrijwilligers om de vertaling van de block explorer te verbeteren. <0> Draag een steentje bij! </0>",
+    "languageDetailed": "Kies de gewenste taal. DogenanoLooker zoekt vrijwilligers om de vertaling van de block explorer te verbeteren. <0> Draag een steentje bij! </0>",
     "watch": "Bekijk andere cryptovaluta",
     "watchSearch": "Zoek cryptovaluta",
     "watchDetailed": "Bekijk de prijs van andere cryptovaluta in de top 100. De huidige marktprijzen en de 24-uurswijziging verschijnen in de bovenste balk. U kunt uw selectie ook herordenen door middel van slepen.",
     "fiatCurrency": "Fiat valuta",
-    "fiatCurrencyDetailed": "Fiat geld is een door de overheid uitgegeven valuta. Selecteer een fiat valuta om de prijs van Banano mee te vergelijken.",
+    "fiatCurrencyDetailed": "Fiat geld is een door de overheid uitgegeven valuta. Selecteer een fiat valuta om de prijs van Dogenano mee te vergelijken.",
     "natricons": "MonKeys",
-    "natriconsDetailed": "MonKeys zijn vriendelijke, bekende gezichten voor Banano adressen. Gebruik ze op accountpaginas en overal waar een nano adres te zien is.",
+    "natriconsDetailed": "MonKeys zijn vriendelijke, bekende gezichten voor Dogenano adressen. Gebruik ze op accountpaginas en overal waar een nano adres te zien is.",
     "liveTransactions": "Schakel live updates in",
-    "liveTransactionsDetailed": "Bekijk live transacties die plaatsvinden op het Banano netwerk. Beschikbaar op de startpagina.",
+    "liveTransactionsDetailed": "Bekijk live transacties die plaatsvinden op het Dogenano netwerk. Beschikbaar op de startpagina.",
     "contribute": "Draag bij",
     "filterTransactionsRange": "Voeg bedragbereiken toe",
     "filterTransactionsRangeDetailed": "Stel een aangepast filterbereik in",
-    "filterTransactions": "Verberg bedragen onder 1 BANANO"
+    "filterTransactions": "Verberg bedragen onder 1 Dogenano"
   },
   "menu": {
     "explore": "Verken",
@@ -127,8 +127,8 @@
     "faucets": "Uitgiftepunten",
     "news": "Nieuws",
     "nodeStatus": "Node status",
-    "whatIsBanano": "Wat is nano?",
-    "earnBanano": "Verdien nano",
+    "whatIsDogenano": "Wat is nano?",
+    "earnDogenano": "Verdien nano",
     "preferences": "Voorkeuren",
     "status": "Status",
     "networkStatus": "Netwerk status"
@@ -137,7 +137,7 @@
     "createdBy": "Gemaakt door {{creator}}",
     "donations": {
       "donate": "Doneer",
-      "title": "BananoLooker donatieaccount"
+      "title": "DogenanoLooker donatieaccount"
     }
   },
   "pages": {
@@ -154,14 +154,14 @@
       "last24Hours": "Afgelopen 24 uur",
       "avgConfirmationTime": "Gem. bevestigingstijd (seconden)",
       "confirmedTransactions": "Bevestigde transacties",
-      "transactionFees": "BANANO transactiekosten",
+      "transactionFees": "Dogenano transactiekosten",
       "exchangeVolume": "Exchange volume",
-      "onChainVolume": "BANANO volume",
+      "onChainVolume": "Dogenano volume",
       "recentTransactions": "Recente transacties",
       "liveUpdatesDisabled": "Live updates uitgeschakeld",
       "waitingForTransactions": "Wachten op transacties",
-      "connectingToBlockchain": "Verbinding maken met het BANANO netwerk",
-      "reconnectingToBlockchain": "Verbinding verbroken, opnieuw verbinding maken met het BANANO netwerk",
+      "connectingToBlockchain": "Verbinding maken met het Dogenano netwerk",
+      "reconnectingToBlockchain": "Verbinding verbroken, opnieuw verbinding maken met het Dogenano netwerk",
       "oneBanEqualsOneDoge": "Wat als 1 Ban = 1 Doge?"
     },
     "account": {
@@ -173,7 +173,7 @@
       "loadMoreTransactions": "Laadt meer transacties",
       "viewTransactions": "Bekijk transacties",
       "notOpenedYet": "Dit account is nog niet geopend",
-      "notOpenedYetReason": "Hoewel het accountadres geldig is, zijn er nog geen blocks naar het netwerk gepubliceerd. Als er BANANO naar dit account is gestuurd, moet er nog een overeenkomstig ontvangst block worden gepubliceerd om het geld te ontvangen.",
+      "notOpenedYetReason": "Hoewel het accountadres geldig is, zijn er nog geen blocks naar het netwerk gepubliceerd. Als er Dogenano naar dit account is gestuurd, moet er nog een overeenkomstig ontvangst block worden gepubliceerd om het geld te ontvangen.",
       "missingAccount": "Account ontbreekt",
       "missingAccountInfo": "Het account is niet gespecificeerd in de URL. Gebruik de zoekbalk bovenaan om naar een account te zoeken of voeg deze toe aan de URL achter /account/",
       "notVoting": "Niet stemmen",
@@ -195,7 +195,7 @@
       "missingBlock": "Ontbrekend block",
       "missingBlockInfo": "Het block is niet gespecificeerd in de URL. Gebruik de zoekbalk bovenaan om naar een block te zoeken of voeg het toe aan de URL na /block/",
       "blockNotFound": "Block niet gevonden",
-      "blockNotFoundInfo": "Het block dat u heeft aangevraagd, is niet gevonden. Het is mogelijk dat het block aanwezig is op het Banano netwerk, maar nog gezien moet worden door de node. Zorg ervoor dat u naar het juiste block zoekt of probeer het later opnieuw."
+      "blockNotFoundInfo": "Het block dat u heeft aangevraagd, is niet gevonden. Het is mogelijk dat het block aanwezig is op het Dogenano netwerk, maar nog gezien moet worden door de node. Zorg ervoor dat u naar het juiste block zoekt of probeer het later opnieuw."
     },
     "representatives": {
       "voteDistribution": "Stemverdeling",
@@ -219,10 +219,10 @@
       "noDelegatorsFound": "Geen delegerenden gevonden"
     },
     "faucets": {
-      "description": "Met uitgiftepunten kunt u gratis kleine hoeveelheden BANANO claimen. Met deze uitgiftepunten kunt u ervaren hoe gemakkelijk het is om BANANO direct over de hele wereld te verzenden en te ontvangen op een gedecentraliseerd netwerk."
+      "description": "Met uitgiftepunten kunt u gratis kleine hoeveelheden Dogenano claimen. Met deze uitgiftepunten kunt u ervaren hoe gemakkelijk het is om Dogenano direct over de hele wereld te verzenden en te ontvangen op een gedecentraliseerd netwerk."
     },
     "developerFund": {
-      "description": "Het ontwikkelaarsfonds is opgesplitst in {{count}} rekeningen. Het fonds ondersteunt de Banano-ontwikkeling, gemeenschapsprojecten en <0>Folding @ Home</0> -beloningen.",
+      "description": "Het ontwikkelaarsfonds is opgesplitst in {{count}} rekeningen. Het fonds ondersteunt de Dogenano-ontwikkeling, gemeenschapsprojecten en <0>Folding @ Home</0> -beloningen.",
       "lastTransaction": "Laatste transactie",
       "allTransactions": "Bekijk alle transacties",
       "totalAccounts": "{{totalAccounts}} Totaal aantal accounts",
@@ -246,23 +246,23 @@
       "sendTo": "Tot"
     },
     "largeTransactions": {
-      "description": "Grote transacties die plaatsvinden op het BANANO netwerk.",
+      "description": "Grote transacties die plaatsvinden op het Dogenano netwerk.",
       "latest": "Nieuwste transactie",
       "largest": "Grootste bedrag"
     },
     "distribution": {
-      "title": "Banano distributie",
-      "summary": "Totaal van <0>{{i18nTotalAccounts}}</0> accounts hebben <1>{{i18nTotalBalances}}</1> BANANO",
+      "title": "Dogenano distributie",
+      "summary": "Totaal van <0>{{i18nTotalAccounts}}</0> accounts hebben <1>{{i18nTotalBalances}}</1> Dogenano",
       "summaryMinBalance": "Elk account met een saldo lager dan <0>0,001</0> wordt uitgesloten",
       "includeKnownExchanges": "Inclusief bekende exchanges",
       "logScale": "Log schaal",
       "dormantFunds": "Latente gelden",
-      "dormantFundsExperiment": "Dit is een experiment om te begrijpen hoeveel accounts er actief zijn op het Banano netwerk. Voor elk van de {{totalAccounts}} - accounts wordt de laatste transactiedatum op de lokale node vastgelegd. Het saldo en de uitstaande bedragen die elk account bevat, wordt gemarkeerd als actief voor de maand waarin ze voor het laatst zijn afgehandeld. De volgende maand worden het saldo en de uitstaande bedragen gemarkeerd als latent.",
+      "dormantFundsExperiment": "Dit is een experiment om te begrijpen hoeveel accounts er actief zijn op het Dogenano netwerk. Voor elk van de {{totalAccounts}} - accounts wordt de laatste transactiedatum op de lokale node vastgelegd. Het saldo en de uitstaande bedragen die elk account bevat, wordt gemarkeerd als actief voor de maand waarin ze voor het laatst zijn afgehandeld. De volgende maand worden het saldo en de uitstaande bedragen gemarkeerd als latent.",
       "availableSupply": "Beschikbaar aantal nano",
       "knownAccountBalances": "Bekende account saldo's",
       "unknownDormantFunds": "Onbekende latente gelden",
-      "dormantFundsQuarterExample": "Een account met 50 BANANO en 50 BANANO in afwachting heeft voor het laatst 6 maanden geleden (2 kwartalen) transacties uitgevoerd, een saldo van 100 BANANO wordt als \"latent\" toegevoegd aan het totaal van het volgende kwartaal.",
-      "dormantBanano": "Latente BANANO",
+      "dormantFundsQuarterExample": "Een account met 50 Dogenano en 50 Dogenano in afwachting heeft voor het laatst 6 maanden geleden (2 kwartalen) transacties uitgevoerd, een saldo van 100 Dogenano wordt als \"latent\" toegevoegd aan het totaal van het volgende kwartaal.",
+      "dormantDogenano": "Latente Dogenano",
       "ofAvailableSupply": "van de beschikbare voorraad"
     },
     "news": {
@@ -308,7 +308,7 @@
       "database": "Database"
     },
     "exchangeTracker": {
-      "description": "Elke dag wordt een opname gemaakt van de accountsaldo's van de meest populaire exchanges waar Banano wordt verhandeld. Deze meting kan worden gebruikt om bewegingen en fluctuaties op het netwerk te analyseren.",
+      "description": "Elke dag wordt een opname gemaakt van de accountsaldo's van de meest populaire exchanges waar Dogenano wordt verhandeld. Deze meting kan worden gebruikt om bewegingen en fluctuaties op het netwerk te analyseren.",
       "totalSelected": "Totaal saldo van geselecteerde beurzen"
     },
     "preferences": {
@@ -338,9 +338,9 @@
       "registerNote": "De gebruikersnaam en het account worden opgeslagen in de browsergegevens.",
       "invalidAccount": "Ongeldig account",
       "playersOnline": "Spelers online",
-      "welcomeTitle": "Spring in de Arena en word in BANANO betaald voor je Frags!",
+      "welcomeTitle": "Spring in de Arena en word in Dogenano betaald voor je Frags!",
       "welcomeDescription": "Welkom in de Arena, waar hooggeplaatste krijgers worden omgevormd tot slappe brij. Zonder elk greintje gezond verstand en elk spoor van twijfel achter je te laten, stort je je op een podium van schrijnende landschappen en versluierde afgronden. Je nieuwe omgeving wijst je af met lavaputten en atmosferische gevaren terwijl legioenen vijanden je omsingelen en de darmreactie testen die je hier in de eerste plaats bracht. Je nieuwe mantra: vechten of klaar zijn.",
-      "welcomeDescription2": "Speel het bestverkochte first-person shooter-spel uit 1999 met je vrienden en andere spelers over de hele wereld en verdien BANANO door elkaar te belazeren!",
+      "welcomeDescription2": "Speel het bestverkochte first-person shooter-spel uit 1999 met je vrienden en andere spelers over de hele wereld en verdien Dogenano door elkaar te belazeren!",
       "gameplay": "Gameplay",
       "registerErrorUsername": "Gebruikersnaam is al in gebruik voor een ander adres",
       "playNanoquakejs": "Speel NanoQuakeJS",

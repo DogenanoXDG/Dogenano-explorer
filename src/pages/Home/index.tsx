@@ -221,6 +221,7 @@ const HomePage = () => {
                     value={0}
                   />
                 ) : null}
+                {/*
                 <LoadingStatistic
                   isLoading={
                     isMarketStatisticsInitialLoading || isMarketStatisticsError
@@ -231,12 +232,14 @@ const HomePage = () => {
                   tooltip={t("tooltips.oneBanEqualsOneDoge")}
                   prefix={CurrencySymbol?.[fiat]}
                   value={oneBanOneDoge}
-                />
+                /> */}
               </Col>
             </Row>
           </Card>
         </Col>
+{/*
 
+                  
         <Col
           xs={{ span: 24, order: 1 }}
           md={{ span: 12, order: 3 }}
@@ -291,6 +294,7 @@ const HomePage = () => {
             </Row>
           </Card>
         </Col>
+        */}
       </Row>
       <RecentTransactions />
     </>

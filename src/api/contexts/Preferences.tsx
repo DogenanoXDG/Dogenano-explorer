@@ -118,7 +118,7 @@ export const PreferencesContext = React.createContext<Preferences>({
   filterTransactions: false,
   filterTransactionsRange: DEFAULT_UNITS,
   disableLiveTransactions: false,
-  natricons: true,
+  natricons: false,
   rpcDomain: null,
   websocketDomain: null,
   setTheme: () => {},

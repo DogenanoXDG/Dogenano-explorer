@@ -24,7 +24,7 @@ const NatriconsPreferences: React.FC<Props> = ({ isDetailed }) => {
 
   return (
     <div style={{ display: "flex", alignItems: "flex-start" }}>
-      <Natricon
+      {/* <Natricon
         account={account}
         style={{
           margin: "-12px -6px -18px -18px ",
@@ -55,7 +55,7 @@ const NatriconsPreferences: React.FC<Props> = ({ isDetailed }) => {
             checked={natricons}
           />
         </Col>
-      </Row>
+      </Row> */}
     </div>
   );
 };

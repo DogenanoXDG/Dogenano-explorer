@@ -39,7 +39,7 @@ const CryptocurrencyPreferences: React.FC<Props> = ({ isDetailed }) => {
       key={name}
       value={name}
       symbol={symbol}
-      disabled={cryptocurrency.includes(symbol) || symbol === "ban"}
+      disabled={cryptocurrency.includes(symbol) || symbol === "xdg"}
     >
       <img
         src={`/cryptocurrencies/logo/${symbol}.png`}

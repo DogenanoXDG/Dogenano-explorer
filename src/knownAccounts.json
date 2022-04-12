@@ -1,30 +1,9 @@
 {
-  "GENESIS_ACCOUNT": "ban_1bananobh5rat99qfgt1ptpieie5swmoth87thi74qgbfrij7dcgjiij94xr",
-  "GENESIS_BLOCK": "F61A79F286ABC5CC01D3D09686F0567812B889A5C63ADE0E82DD30F3B2D96463",
-  "BURN_ACCOUNT": "ban_1burnbabyburndiscoinferno111111111111111111111111111aj49sw3w",
+  "GENESIS_ACCOUNT": "xdg_1mz6am1zez5y8u87s7pkddagkag4xtub7bktn8wm6o5taekwypfww4p6frby",
+  "GENESIS_BLOCK": "51E648B79D87B5B33B88B474A17990C18EE3CCFB068888FB7187F4031C80CEC7",
+  "BURN_ACCOUNT": "xdg_1111111111111111111111111111111111111111111111111111hifc8npp",
   "KNOWN_EXCHANGE_ACCOUNTS": [
-    "ban_36e1qnwo5faf7uapp6gbzzmzt3bgz6a93txuukmr45pmodcy4q7pwaray1u9",
-    "ban_1fxc48dynhbjb69uuyue4bsfuymxick8js14synwznduy61g6i9esdeasmem",
-    "ban_16tduo1cu9ydp8ris3o5w4rm96myqics5o8tjw8s13ja8owba6xfpwc8399r",
-    "ban_1gooj14qko1u6md87aga9c53nf4iphyt1ua7x3kq1wnkdh49u5mndqygbr1q",
-    "ban_16bfuppfebtmgh1t8ktpk4eq4dyz5m1ztxesznagd916jzk8b87qity3habz",
-    "ban_3yafcjcq79cjfm4wio5db6drffmf61jh8cosoijmg3eppzmbxb4kej8t3dze",
-    "ban_1bujgzb69qr4owkcm3qu35mb843qtwnx4zf8q3myjw1dui7br5k87k84e54d",
-    "ban_1gtkt1ekpazojhxwnym9ur61cz4w7n8yez5yq81id6cb8k63bhwx7axhtsxx",
-    "ban_3wwd51yoxeafubpn84gy7tje7yw6ccqcach9m4yfn46sf15itnysap9dd1xc",
-    "ban_3w6yatruhkxgu4bhx1d8zggpwafrq3z7xyrqchuw8h5xa9aqhnrj7mi79mtu",
-    "ban_3x1o69xsppjb1d9owsn8x6uqr8a1ttpitsu3yya7iyimaboqhb9urb8x61y8",
-    "ban_31dhbgirwzd3ce7naor6o94woefws9hpxu4q8uxm1bz98w89zqpfks5rk3ad",
-    "ban_3k76rawffjm79qedoc54nhk3edkq5makoyp73b1t6q6j9yjeq633q1xck9g8",
-    "ban_1banbet955hwemgsqrb8afycd3nykaqaxsn7iaydcctfrwi3rbb36y17fbcb",
-    "ban_1w5q77ocgfrjn6sqwudfuygtomwyij8ijes3y5g8kaydxsf8f4jpz4n9q9a3",
-    "ban_3iejwmk1n3fqdntwcgudhmddo9bpwa8jzx6g361iq6rzbsrzonekmdus9yj5",
-    "ban_1oaocnrcaystcdtaae6woh381wftyg4k7bespu19m5w18ze699refhyzu6bo",
-    "ban_1nrcne47secz1hnm9syepdoob7t1r4xrhdzih3zohb1c3z178edd7b6ygc4x",
-    "ban_3a1dokzzuc334kpsedakxz5hw4cauexjori8spcf7pninujry43dxkbam4o6"
   ],
   "DEVELOPER_FUND_ACCOUNTS": [
-    "ban_1fundm3d7zritekc8bdt4oto5ut8begz6jnnt7n3tdxzjq3t46aiuse1h7gj",
-    "ban_3fundbxxzrzfy3k9jbnnq8d44uhu5sug9rkh135bzqncyy9dw91dcrjg67wf"
   ]
 }

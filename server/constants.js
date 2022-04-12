@@ -43,7 +43,7 @@ const NANOBROWSERQUEST_LEADERBOARD = "NANOBROWSERQUEST_LEADERBOARD";
 const YOUTUBE_PLAYLIST = "YOUTUBE_PLAYLIST";
 const MONGO_USER = process.env.MONGO_USER;
 const MONGO_PASSWORD = process.env.MONGO_PASSWORD;
-const MONGO_URL = `mongodb://${MONGO_USER}:${MONGO_PASSWORD}@localhost:27017`;
+const MONGO_URL = `mongodb://localhost:27017/`;
 const MONGO_DB = "bananolooker";
 const MONGO_OPTIONS = {
   useNewUrlParser: true,

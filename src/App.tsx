@@ -44,10 +44,10 @@ const App: React.FC = () => {
     <>
       <Helmet>
         <html lang={i18next.language} />
-        <title>BananoLooker {t("common.blockExplorer")}</title>
+        <title>Dogenano {t("common.blockExplorer")}</title>
         <meta
           name="description"
-          content="Block explorer of the Banano cryptocurrency"
+          content="Block explorer of the Dogenano cryptocurrency"
         />
         <meta
           name="theme-color"

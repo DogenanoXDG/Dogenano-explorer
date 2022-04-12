@@ -159,7 +159,7 @@ const Provider: React.FC = ({ children }) => {
     ),
   );
   const [natricons, setNatricons] = React.useState<boolean>(
-    toBoolean(localStorage.getItem(LOCALSTORAGE_KEYS.NATRICONS) || true),
+    toBoolean(false),
   );
   const [rpcDomain, setRpcDomain] = React.useState(
     localStorage.getItem(LOCALSTORAGE_KEYS.RPC_DOMAIN) || "",

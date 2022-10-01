@@ -112,10 +112,10 @@ const AccountDetails: React.FC<Props> = ({
     .toFormat(8);
 
   const fiatBalance = new BigNumber(balance)
-    .times(currentPrice*0.1)
+    .times(currentPrice)
     .toFormat(CurrencyDecimal?.[fiat]);
   const btcBalance = new BigNumber(balance)
-    .times(currentPrice*0.1)
+    .times(currentPrice)
     .dividedBy(btcCurrentPrice)
     .toFormat(12);
 

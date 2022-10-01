@@ -72,6 +72,7 @@ const getPriceStats = async fiats => {
       nodeCache.set(`${COINGECKO_PRICE_STATS}-${fiat}`, {
         bitcoin: json.bitcoin,
         banano: json.banano,
+        nano: json.nano,
       });
     }
   } catch (err) {

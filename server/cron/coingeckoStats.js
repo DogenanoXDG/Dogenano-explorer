@@ -20,7 +20,7 @@ const {
 } = require("../constants");
 
 const defaultFiats = ["usd"];
-const secondaryFiats = ["cad", "eur", "gbp", "cny", "jpy", "pln"];
+const secondaryFiats = ["eur", "gbp"];
 
 const { writeFile, mkdir, copy } = promises;
 
@@ -155,18 +155,18 @@ const getDogeMarketStats = async fiats => {
   }
 };
 
-// Every 50 seconds
-cron.schedule("*/50 * * * * *", async () => {
+// At every 15th minute
+cron.schedule("*/15 * * * *", async () => {
   getPriceStats(defaultFiats);
   getMarketStats(defaultFiats);
 });
 
 // https://crontab.guru/#*/3_*_*_*_*
 // At every 3nd minute.
-cron.schedule("*/3 * * * *", async () => {
-  getPriceStats(secondaryFiats);
-  getMarketStats(secondaryFiats);
-});
+//cron.schedule("*/3 * * * *", async () => {
+//  getPriceStats(secondaryFiats);
+//  getMarketStats(secondaryFiats);
+//});
 
 getPriceStats(defaultFiats);
 getMarketStats(defaultFiats);

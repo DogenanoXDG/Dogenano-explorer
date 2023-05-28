@@ -135,6 +135,7 @@ app.get("/api/market-statistics", async (req, res) => {
   let nanswapData = await fetch('https://data.nanswap.com/get-markets')
   let nanswapDataJSON = await nanswapData.json()
   let xdgPriceXNO = nanswapDataJSON.find((e) => e.key === 'XDG/XNO').midPrice
+  console.log(priceStats);
   let xdgPriceUSD = xdgPriceXNO * priceStats['nano'].usd
   marketStats['currentPrice'] = xdgPriceUSD
 

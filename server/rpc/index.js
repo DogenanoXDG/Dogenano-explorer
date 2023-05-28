@@ -73,9 +73,22 @@ const getCacheKey = (action, params) =>
       : ""
   }`;
 
+  const getCirculatingSupply = async () => {
+    let res = await fetch("https://api.dogenano.io/get-total-claim");
+    let json = await res.json();
+    return json[0].sumDogenano * 1.1
+  }
+
 const rpc = async (action, params, isLimited, rpcDomain) => {
   let res;
   let json;
+
+  if (action === "available_supply"){
+    let r = await getCirculatingSupply()
+    return {
+      available: r.toFixed(0) + "00000000000000000000000000"
+    }
+  }
   let cacheKey = cacheSettings[action] && getCacheKey(action, params);
 
   try {
@@ -126,3 +139,4 @@ const rpc = async (action, params, isLimited, rpcDomain) => {
 
 exports.rpc = rpc;
 exports.allowedRpcMethods = allowedRpcMethods;
+exports.getCirculatingSupply = getCirculatingSupply;

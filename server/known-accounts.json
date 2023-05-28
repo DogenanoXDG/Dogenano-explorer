@@ -1,5 +1,31 @@
-[{
+[
+  {
     "alias": "Twitter Faucet",
     "account": "xdg_1kszejca7cytdthu6a3ntj36nbqkokbmt696a9toufhw8erfkaxi9oena169"
+  },
+  {
+    "alias": "Genesis",
+    "account": "xdg_1mz6am1zez5y8u87s7pkddagkag4xtub7bktn8wm6o5taekwypfww4p6frby"
+  },
+  {
+    "alias": "Distribution",
+    "account": "xdg_1kxzwigqegun4a4xw5yjgpk99iqgxt5uftd5d6e6h4omemyexbu3cmtmm4sa"
+  },
+  {
+    "alias": "Nanswap",
+    "account": "xdg_1e4ecrhmcws6kwiegw8dsbq5jstq7gqj7fspjmgiu11q55s6xnsnp3t9jqxf"
+  },
+  {
+    "alias": "Nanswap - Faucet",
+    "account": "xdg_11x47nnqaq1bt73nfgptm87zuu4npwajjhwxesa4mmioja7f54noswse9djq"
+  },
+  {
+    "alias": "Nanswap - Earn",
+    "account": "xdg_14jgy3jos9wfww8upr5ah4yrrhb8rk7zzpmj5fr1yznmxopr8ekws6s3ibxg"
+  },
+  {
+    "alias": "Burn",
+    "account": "xdg_1111111111111111111111111111111111111111111111111111hifc8npp"
   }
+
 ]

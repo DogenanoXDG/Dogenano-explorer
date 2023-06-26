@@ -17,7 +17,7 @@ const KnownAccountsPage: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Banano {t("menu.knownAccounts")}</title>
+        <title>DogeNano {t("menu.knownAccounts")}</title>
       </Helmet>
       <Title level={3}>
         {t("pages.knownAccounts.totalAccounts", {

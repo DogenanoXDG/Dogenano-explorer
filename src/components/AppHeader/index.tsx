@@ -71,26 +71,26 @@ const AppHeader: React.FC = () => {
                   {t("menu.representatives")}
                   <Link to="/representatives" />
                 </Menu.Item>
-                <Menu.Item key="developer-fund">
+                {/* <Menu.Item key="developer-fund">
                   {t("menu.developerFund")}
                   <Link to="/developer-fund" />
-                </Menu.Item>
+                </Menu.Item> */}
                 <Menu.Item key="known-accounts">
                   {t("menu.knownAccounts")}
                   <Link to="/known-accounts" />
                 </Menu.Item>
-                <Menu.Item key="large-transactions">
+                {/* <Menu.Item key="large-transactions">
                   {t("menu.largeTransactions")}
                   <Link to="/large-transactions" />
-                </Menu.Item>
+                </Menu.Item> */}
                 <Menu.Item key="distribution">
                   {t("menu.distribution")}
                   <Link to="/distribution" />
                 </Menu.Item>
-                <Menu.Item key="exchange-tracker">
+                {/* <Menu.Item key="exchange-tracker">
                   {t("menu.exchangeTracker")}
                   <Link to="/exchange-tracker" />
-                </Menu.Item>
+                </Menu.Item> */}
                 <Menu.Item key="faucets">
                   {t("menu.faucets")}
                   <Link to="/faucets" />
@@ -116,10 +116,10 @@ const AppHeader: React.FC = () => {
                   {t("menu.nodeStatus")}
                   <Link to="/node-status" />
                 </Menu.Item>
-                <Menu.Item key="network-status">
+                {/* <Menu.Item key="network-status">
                   {t("menu.networkStatus")}
                   <Link to="/network-status" />
-                </Menu.Item>
+                </Menu.Item> */}
               </SubMenu>
             </Menu>
           </Col>

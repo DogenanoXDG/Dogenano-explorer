@@ -65,14 +65,14 @@ const App: React.FC = () => {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route path="/representatives" component={RepresentativesPage} />
-            <Route exact path="/developer-fund" component={DeveloperFundPage} />
+            {/* <Route exact path="/developer-fund" component={DeveloperFundPage} />
             <Route
               path="/developer-fund/transactions"
               component={DeveloperFundTransactionsPage}
-            />
+            /> */}
             <Route path="/known-accounts" component={KnownAccountsPage} />
             <Route path="/distribution" component={DistributionPage} />
-            <Route path="/exchange-tracker" component={ExchangeTrackerPage} />
+            {/* <Route path="/exchange-tracker" component={ExchangeTrackerPage} /> */}
             <Route path="/faucets" component={FaucetsPage} />
             <Route
               path="/large-transactions/:sortBy?"
@@ -85,7 +85,7 @@ const App: React.FC = () => {
             <Route path="/block/:block?" component={BlockPage} />
             {/* <Route path="/news/:feed?" component={NewsPage} /> */}
             <Route path="/node-status" component={NodeStatusPage} />
-            <Route path="/network-status" component={NetworkStatusPage} />
+            {/* <Route path="/network-status" component={NetworkStatusPage} /> */}
             {/* <Route path="/what-is-banano" component={WhatIsBananoPage} /> */}
             <Route path="/preferences" component={PreferencesPage} />
             <Route path="/bookmarks" component={BookmarksPage} />

@@ -25,7 +25,7 @@ const getRichListPage = async (page = 1) =>
       (err, list) => {
         const data = [];
         list.forEach(value => {
-          if (value.startsWith("nano_")) {
+          if (value.startsWith("xdg_")) {
             data.push({ account: value });
           } else {
             data[data.length - 1].balance = parseFloat(value);

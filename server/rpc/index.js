@@ -108,7 +108,7 @@ const rpc = async (action, params, isLimited, rpcDomain) => {
         action,
         ...params,
       });
-
+      
       res = await fetch(rpcDomain || process.env.RPC_DOMAIN, {
         method: "POST",
         body,

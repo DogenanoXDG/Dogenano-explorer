@@ -48,7 +48,7 @@ const getAccounts = async () => {
 
   let currentAccountCount = 0;
   let nextAccount =
-    "ban_1111111111111111111111111111111111111111111111111111hifc8npp";
+    "xdg_1111111111111111111111111111111111111111111111111111hifc8npp";
   let steps = 50000;
   let nextCount = 0;
 
@@ -118,11 +118,11 @@ const getDistribution = async () => {
   // 10,000,000 - <100,000,000
   // 100,000,000 - <1,000,000,000
   // 1,000,000,000 - <10,000,000,000
-  const distribution = Array.from({ length: 10 }, () => ({
+  const distribution = Array.from({ length: 12 }, () => ({
     accounts: 0,
     balance: 0,
   }));
-
+  console.log("starting balances")
   // Funds that have not moved since X
   const dormantFunds = {};
 
@@ -132,12 +132,11 @@ const getDistribution = async () => {
 
   await mkdir(`${TMP_DISTRIBUTION_PATH}`, { recursive: true });
 
-  // await getAccounts();
+  await getAccounts();
 
   const tmpAccountFiles = await readdir(TMP_ACCOUNTS_PATH);
-
   for (let y = 0; y < tmpAccountFiles.length; y++) {
-    if (/^[0-4]/.test(tmpAccountFiles[y])) continue; // skip 0-3.json
+    // if (/^[0-4]/.test(tmpAccountFiles[y])) continue; // skip 0-3.json
 
     const accounts = JSON.parse(
       fs.readFileSync(`${TMP_ACCOUNTS_PATH}/${tmpAccountFiles[y]}`, "utf8"),
@@ -169,7 +168,6 @@ const getDistribution = async () => {
             richList[account] = total;
 
             const index = `${parseInt(total)}`.length - 1;
-
             // Add the account as part of the Distribution
             distribution[index] = {
               accounts: (distribution[index].accounts += 1),
@@ -315,7 +313,7 @@ const doDistributionCron = async () => {
 cron.schedule("15 5 * * 1", async () => {
   if (process.env.NODE_ENV !== "production") return;
   // Disable cron until amounts are sorted out
-  // doDistributionCron();
+  doDistributionCron();
 });
 
 // if (

@@ -9,12 +9,12 @@ const { KNOWN_ACCOUNTS, KNOWN_ACCOUNTS_BALANCE } = require("../constants");
 let knownAccounts = require("../known-accounts.json");
 
 // Custom known-account list
-knownAccounts = knownAccounts.concat([
+/* knownAccounts = knownAccounts.concat([
   {
     alias: "BananoLooker Donations",
     account: "ban_1gxx3dbrprrh9ycf1p5wo9qgmftppg6z7688njum14aybjkaiweqmwpuu9py",
   },
-]);
+]); */
 
 const doKnownAccountsBalanceCron = async () => {
   let knownAccountsBalance = [];
@@ -27,6 +27,7 @@ const doKnownAccountsBalanceCron = async () => {
         accounts,
       })) || {};
 
+      console.log(balances);
     knownAccountsBalance = balances
       ? knownAccounts
           .map(({ account, alias }) => ({
